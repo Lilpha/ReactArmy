@@ -1,13 +1,10 @@
-.Center {
-}
-.slide{
+.slide {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
 .slider {
-    
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +16,11 @@
 }
 
 .LeftImage {
-
     width: 60%;
     height: 60%;
 }
 
 .RightImage {
-
     width: 60%;
     height: 60%;
 }
@@ -34,8 +29,11 @@
     background-color: Black;
     width: 100Vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
-img{
+
+img {
     width: 60%;
     height: 60%;
 }
