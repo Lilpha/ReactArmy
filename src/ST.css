@@ -1,0 +1,39 @@
+.slide {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CenterImage {
+    width: 60%;
+    height: 60%;
+}
+
+.LeftImage {
+    width: 60%;
+    height: 60%;
+}
+
+.RightImage {
+    width: 60%;
+    height: 60%;
+}
+
+.Main {
+    background-color: Black;
+    width: 100Vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+}

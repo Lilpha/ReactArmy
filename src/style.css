@@ -1,39 +1,39 @@
-.slide {
-    display: inline-flex;
-    justify-content: center;
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: inline;
     align-items: center;
-}
-
-.slider {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.CenterImage {
-    width: 60%;
-    height: 60%;
-}
-
-.LeftImage {
-    width: 60%;
-    height: 60%;
-}
-
-.RightImage {
-    width: 60%;
-    height: 60%;
-}
-
-.Main {
-    background-color: Black;
-    width: 100Vw;
-    height: 100vh;
+    vertical-align: middle;
+    
+  }
+  
+  .swiper-slide img {
     display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper{
     align-items: center;
-}
-
-img {
-    width: 60%;
-    height: 60%;
-}
+  }
